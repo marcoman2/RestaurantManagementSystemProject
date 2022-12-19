@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 4, 22, 10:21:51 AM
+    @author WMarcoMan
+ * Subscribe our Channel for support --> https://www.youtube.com/@marcomanchannel
+*/
+
+.right-form{
+    -fx-background-color: linear-gradient(to bottom right, #25bcbf, #3796a7);
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .4px 0px;
+}
+
+.left-form{
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+    -fx-border-width: .4px 0px .4px .4px;
+}
+
+.close{
+    -fx-background-color: transparent;
+    -fx-cursor:hand;
+}
+.close:hover{
+    -fx-background-color: #ee5363;
+}
+
+.textfield{
+    -fx-background-color: #efefef;
+    -fx-font-size: 13px;
+    -fx-font-family: Tahoma;
+    -fx-border-color: #ddd;
+    -fx-border-width: .5px;
+}
+.textfield:focused{
+    -fx-background-color: #f5f5f5;
+    -fx-border-width: 1.2px;
+}
+
+.login-btn{
+    -fx-background-color: #3796a7;
+    -fx-font-size: 14px;
+    -fx-cursor:hand;
+    -fx-font-family: Arial;
+    -fx-text-fill: #fff;
+    -fx-background-radius: 8px;
+}
+.login-btn:hover{
+    -fx-background-color: #25bcbf;
+}
+
+/*// LETS GIVE THE BEHAVIOR  :)*/ 
